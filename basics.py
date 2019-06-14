@@ -1,11 +1,10 @@
-##Converting a List into a Tuple
-def convertTupleToList(list):
-	return(tuple(list))
-	
-
 ##Simple differences. Note the different parenthesis usage below for initialization. 
 sampleList = [1,2,3,4]
 sampleTuple = (1,2,3,4)
+
+##Converting a List into a Tuple
+def convertTupleToList(list):
+	return(tuple(list))
 
 ##Converting a List into a Tuple
 list = [1,2,3,4]
